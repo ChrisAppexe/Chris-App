@@ -1,3 +1,36 @@
+::[Bat To Exe Converter]
+::
+::YAwzoRdxOk+EWAjk
+::fBw5plQjdCyDJGyX8VAjFANGRReDAE+1BaAR7ebv/Naqh2o8R/sxe7PayqSyA+ga+FakVIY9eKb0TWXfospkdxGkYBwIqGpGuWrLPsST0w==
+::YAwzuBVtJxjWCl3EqQJgSA==
+::ZR4luwNxJguZRRnk
+::Yhs/ulQjdF+5
+::cxAkpRVqdFKZSDk=
+::cBs/ulQjdF+5
+::ZR41oxFsdFKZSDk=
+::eBoioBt6dFKZSDk=
+::cRo6pxp7LAbNWATEpCI=
+::egkzugNsPRvcWATEpCI=
+::dAsiuh18IRvcCxnZtBJQ
+::cRYluBh/LU+EWAnk
+::YxY4rhs+aU+IeA==
+::cxY6rQJ7JhzQF1fEqQJQ
+::ZQ05rAF9IBncCkqN+0xwdVs0
+::ZQ05rAF9IAHYFVzEqQIWJBpEXB3CHmKoAvU+6fz454o=
+::eg0/rx1wNQPfEVWB+kM9LVsJDGQ=
+::fBEirQZwNQPfEVWB+kM9LVsJDGQ=
+::cRolqwZ3JBvQF1fEqQISMVtcQwqFKWKuCexEiA==
+::dhA7uBVwLU+EWDk=
+::YQ03rBFzNR3SWATElA==
+::dhAmsQZ3MwfNWATElA==
+::ZQ0/vhVqMQ3MEVWAtB9wSA==
+::Zg8zqx1/OA3MEVWAtB9wSA==
+::dhA7pRFwIByZRRnk
+::Zh4grVQjdCyDJGyX8VAjFANGRReDAE+/Fb4I5/jH6eaX7EgFUYI=
+::YB416Ek+ZG8=
+::
+::
+::978f952a14a936cc963da21a135fa983
 @Echo Off
 	Setlocal EnableExtensions EnableDelayedExpansion
 	Set ANSICON_EXC=nvd3d9wrap.dll;nvd3d9wrapx.dll
@@ -15,7 +48,7 @@
 	Set "P=Core\Palette"
 	Set "Dip=<Nul Set/p="
 	Set "Delims_1=#$FDSGK\OO"
-	Set "Delims_2=ï£»d}TRBFd][K"
+	Set "Delims_2=ÿd}TRBFd][K"
 	Set "PDsp=>Nul 2>&1 Start /b Cmd /C %Dsp% Core\Effects.sdsp -d -q trim"
 	!Fn! Font 1
 	!Fn! Cursor 0
@@ -65,15 +98,15 @@
 	If !Sel! Equ 1 (
 		%Dip%[0;5;46;31m
 		%Dip%[21;10H._______.
-		%Dip%[22;10HÎ­       Î­
-		%Dip%[23;10HÎ­      Î­
-		%Dip%[24;10HÎ­_______Î­
+		%Dip%[22;10HÝ       Ý
+		%Dip%[23;10HÝ      Ý
+		%Dip%[24;10HÝ_______Ý
 	) Else (
 		%Dip%[0;5;46;31m
 		%Dip%[21;29H._______.
-		%Dip%[22;29HÎ­  [1]  Î­
-		%Dip%[23;29HÎ­[3] [2]Î­
-		%Dip%[24;29HÎ­_______Î­
+		%Dip%[22;29HÝ  [1]  Ý
+		%Dip%[23;29HÝ[3] [2]Ý
+		%Dip%[24;29HÝ_______Ý
 	)
 	%Fn% kbd
 	If !Errorlevel! Equ 332 (
